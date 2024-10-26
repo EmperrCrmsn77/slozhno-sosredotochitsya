@@ -4,7 +4,7 @@
   background-position: center top;
   background-repeat: no-repeat;
   background-size: auto 668px;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .span__rec {
@@ -255,7 +255,7 @@
 
 @media (width < 768px) {
   .footer__inner {
-    margin-block-start: 280px;
+    margin-block-start: 260px;
     margin-block-end: 453px;
   }
 }
