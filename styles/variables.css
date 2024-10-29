@@ -3,30 +3,13 @@
   и их переопределение под различные устройства
 */
 :root {
-  --cover-image: url(../images/cover-image.png);
+  --cover-image: url(../images/cover-image-dark.png);
   --maint-text-size: 18px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cover-image: url(../images/cover-image-dark.png);
-    --rec-color: #ff0070;
-    --accent-color: #ff0070;
-    --title-color: #DB00FF;
-    --text-color: #000028;
-    --main-text-color: #F1B2CE;
-    --background-color: #000028;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --cover-image: url(../images/cover-image-light.png);
-    --rec-color: #ffeef6;
-    --accent-color: #FF8DCB;
-    --title-color: #353430;
-    --text-color: #353430;
-    --main-text-color: #353430;
-    --background-color: #FFF1F7;
-  }
+  --rec-color: #ff0070;
+  --accent-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 50%);
+  --title-color: #DB00FF;
+  --text-color: #000028;
+  --main-text-color: #F1B2CE;
+  --background-color: #000028;
 }

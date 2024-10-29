@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <title>Сложно сосредоточиться</title>
   </head>
 
@@ -54,16 +56,14 @@
       </div>
     </header>
     <main>
-      <section class="section section__difficult">
+      <section class="section__difficult">
         <div class="main__wrapper">
-          <h2 class="section__difficult-title main__title">
+          <h2 class="section__title main__title">
             Почему сосредоточиться так сложно
           </h2>
           <div class="text-block-wrapper">
-            <div class="section__diffcult-text-block">
-              <h3 class="section__difficult-subtitle main__subtitle">
-                Многозадачность
-              </h3>
+            <div class="section__text-block">
+              <h3 class="section__subtitle main__subtitle">Многозадачность</h3>
               <p class="section__difficult-text main__text">
                 Особенно сложно сосредоточиться, когда задач много и все они —
                 важные. Где же легендарная многозадачность, когда она так нужна
@@ -80,10 +80,8 @@
                 ошибаемся и быстро устаём.
               </p>
             </div>
-            <div class="section__diffcult-text-block">
-              <h3 class="section__difficult-subtitle main__subtitle">
-                Дофамин
-              </h3>
+            <div class="section__text-block">
+              <h3 class="section__subtitle main__subtitle">Дофамин</h3>
               <p class="ection__difficult-text main__text">
                 С гормонами стресса всё понятно, но дальше — ещё интереснее. В
                 нашей невозможности сосредоточиться замешана и полная
@@ -99,68 +97,64 @@
           </div>
         </div>
       </section>
-      <section class="section section__concentration">
-        <h2 class="section__concentration__title main__title">
+      <section class="section__concentration">
+        <h2 class="section__title main__title">
           Что снижает концентрацию внимания?
         </h2>
-        <div class="section__concentration__text-wrapper">
-          <div class="section__concentration-text-block">
-            <h3 class="section__concentration__subtitle main__subtitle">
-              Многозадачность
-            </h3>
+        <div class="text-block-wrapper concentration__text-block-wrapper">
+          <div class="section__text-block">
+            <h3 class="section__subtitle main__subtitle">Многозадачность</h3>
             <p class="section__concentration__text main__text">
               Как концентрация может снижаться из-за… концентрации? Любая
-              стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш
-              мозг постоянно «сканировать» окружающую среду на предмет опасности.
-              Например, читать новости вместо работы. Но быть собранными всё время
-              — невозможно. Концентрация — мышца, и она может не выдержать, если
-              не давать ей отдохнуть.
+              стрессовая ситуация (и резко меняющийся мир в целом) заставляет
+              наш мозг постоянно «сканировать» окружающую среду на предмет
+              опасности. Например, читать новости вместо работы. Но быть
+              собранными всё время — невозможно. Концентрация — мышца, и она
+              может не выдержать, если не давать ей отдохнуть.
             </p>
           </div>
-          <div class="section__concentration-text-block">
-            <h3 class="section__concentration__subtitle main__subtitle">Еда</h3>
+          <div class="section__text-block concentration__text-block-margin">
+            <h3 class="section__subtitle main__subtitle">Еда</h3>
             <p class="section__concentration__text main__text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
               доставляют в мозг энергию и помогают ему лучше работать. Но уходит
-              эта энергия также быстро, как и приходит. А мы в результате попадаем
-              на «углеводные качели»: как только действие «быстрых углеводов»
-              заканчивается, мы чувствуем усталость и сонливость. И хотим ещё
-              больше быстрых углеводов.
+              эта энергия также быстро, как и приходит. А мы в результате
+              попадаем на «углеводные качели»: как только действие «быстрых
+              углеводов» заканчивается, мы чувствуем усталость и сонливость. И
+              хотим ещё больше быстрых углеводов.
             </p>
           </div>
-          <div class="section__concentration-text-block">
-            <h3 class="section__concentration__subtitle main__subtitle">
-              Гаджеты
-            </h3>
+          <div class="section__text-block concentration__text-block-margin">
+            <h3 class="section__subtitle main__subtitle">Гаджеты</h3>
             <p class="section__concentration__text main__text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
-              наушниках — подкаст, а на компьютере фоном — ещё и видео с забавными
-              утятами. В результате мозг пытается переключиться с одной задачи на
-              другую — и просто не может. А чтобы вернуться к состоянию полной
-              концентрации, человеку в среднем нужно 20 минут. Вот и получается,
-              что чем больше времени мы проводим в гаджетах, тем больше времени
-              затем нужно, чтобы вернуться к работе.
+              наушниках — подкаст, а на компьютере фоном — ещё и видео с
+              забавными утятами. В результате мозг пытается переключиться с
+              одной задачи на другую — и просто не может. А чтобы вернуться к
+              состоянию полной концентрации, человеку в среднем нужно 20 минут.
+              Вот и получается, что чем больше времени мы проводим в гаджетах,
+              тем больше времени затем нужно, чтобы вернуться к работе.
             </p>
           </div>
         </div>
       </section>
-      <section class="section section__advices">
-        <h2 class="section__advices-title main__title special-width">
+      <section class="section__advices">
+        <h2 class="section__title main__title special-width">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <div class="section__advices-text-block">
-          <div class="section__advices-text-block">
-            <h3 class="section__advices-subtitle main__subtitle special-margin">
-              5 простых (на самом деле не очень) советов
-            </h3>
-            <h3 class="section__advices-subtitle main__subtitle">
+        <div class="text-block-wrapper">
+          <h3 class="section__subtitle main__subtitle special-title">
+            5 простых (на самом деле не очень) советов
+          </h3>
+          <div class="section__text-block">
+            <h4 class="section__subtitle main__subtitle special-subtitle">
               Представьте небо и облака
-            </h3>
+            </h4>
             <p class="section__advices-text main__text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
-              успокоиться. Ведь часто именно тревожные мысли о сложных задачах
-              как раз и мешают эти сложные задачи делать. В такие моменты можно
+              успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
+              раз и мешают эти сложные задачи делать. В такие моменты можно
               закрыть глаза и представить, что чистое небо — это вы, а облака —
               тревожные мысли. И сколько бы их ни было — ясное небо всегда будет
               где-то там, за тучами, и никуда не денется. Это упражнение поможет
@@ -168,10 +162,8 @@
               проблемах из будущего.
             </p>
           </div>
-          <div class="section__advices-text-block">
-            <h3 class="section__advices-subtitle main__subtitle">
-              Включите музыку
-            </h3>
+          <div class="section__text-block">
+            <h4 class="section__subtitle main__subtitle special-subtitle">Включите музыку</h4>
             <p class="section__advices-text main__text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
               положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -179,44 +171,43 @@
               попробовать включить плейлист в «белым шумом» или нейромузыкой.
             </p>
           </div>
-          <div class="section__advices-text-block">
-            <h3 class="section__advices-subtitle main__subtitle">
-              Прогуляйтесь
-            </h3>
+          <div class="section__text-block">
+            <h4 class="section__subtitle main__subtitle special-subtitle">Прогуляйтесь</h4>
             <p class="section__advices-text main__text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-              <span class="main__accent">показал</span>, что созерцание природы повышает концентрацию, в то время
-              как после просмотра городских пейзажей она наоборот понижается.
-              Можно совместить прогулку с физическими упражнениями или бегом —
-              так в мозг поступит ещё больше кислорода и он будет лучше
-              работать. Но и простая двадцатиминутная прогулка — тоже отличный
-              вариант.
+              <a
+                class="main__accent"
+                href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
+                >показал</a
+              >, что созерцание природы повышает концентрацию, в то время как
+              после просмотра городских пейзажей она наоборот понижается. Можно
+              совместить прогулку с физическими упражнениями или бегом — так в
+              мозг поступит ещё больше кислорода и он будет лучше работать. Но и
+              простая двадцатиминутная прогулка — тоже отличный вариант.
             </p>
           </div>
-          <div class="section__advices-text-block">
-            <h3 class="section__advices-subtitle main__subtitle">
-              Хорошо ешьте
-            </h3>
+          <div class="section__text-block">
+            <h4 class="section__subtitle main__subtitle special-subtitle">Хорошо ешьте</h4>
             <p class="section__advices-text main__text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
               которые препятствуют резким скачкам сахара в крови. Например, с
-              высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
-              чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
+              высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица,
+              фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
             </p>
           </div>
-          <div class="section__advices-text-block">
-            <h3 class="section__advices-subtitle main__subtitle">Читайте</h3>
+          <div class="section__text-block">
+            <h4 class="section__subtitle main__subtitle special-subtitle">Читайте</h4>
             <p class="section__advices-text main__text">
-              Настоящие бумажные книги. Это правда помогает с концентрацией:
-              чтобы прочитать пост в соцсети, достаточно нескольких минут или
-              даже секунд. А вот интересная книга способна затянуть и на
-              несколько часов и круто тренирует направленное внимание.
+              Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
+              прочитать пост в соцсети, достаточно нескольких минут или даже
+              секунд. А вот интересная книга способна затянуть и на несколько
+              часов и круто тренирует направленное внимание.
             </p>
           </div>
         </div>
       </section>
-      <section class="section section__image-grid">
-        <h3 class="main__subtitle main__grid-subtitle">А можно в картинках?</h3>
+      <section class="section__image-grid">
+        <h2 class="main__subtitle main__grid-subtitle">А можно в картинках?</h2>
         <div class="main__img-grid">
           <img
             class="main__img img__sunset"
@@ -251,10 +242,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer__inner decorated-zone">
-        <h2 class="footer__title">focus</h2>
-      </div>
+    <footer class="footer decorated-zone">
+      <h2 class="footer__title">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>
