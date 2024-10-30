@@ -129,7 +129,7 @@
 /* -----------MAIN-------------- */
 
 .section__difficult {
-  margin-block-end: 53px;
+  margin-block-end: 52px;
 }
 
 .section__concentration {
@@ -137,7 +137,7 @@
 }
 
 .section__advices {
-  margin-block-end: 50px;
+  margin-block-end: 51px;
 }
 
 .section__image-grid {
@@ -158,12 +158,8 @@
   margin-block-end: 10px;
 }
 
-.section__advices-text-block {
-  margin: 0 5px 20px;
-}
-
 .main__grid-subtitle {
-  margin: 0 10px 15px;
+  margin: 0 10px 11px;
 }
 
 .main__title {
@@ -285,8 +281,7 @@
     grid-template-rows: 11px 1fr min-content 1fr 13px;
   }
 
-  .header__theme-menu{
-    
+  .header__theme-menu {
     margin-inline-end: 20px;
   }
 
