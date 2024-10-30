@@ -8,7 +8,8 @@
   --cover-image: url(../images/cover-image-light.png);
   --rec-color: #ffeef6;
   --accent-color: #FF8DCB;
-  --button-hover-color: rgba(255, 141, 203, 50%);
+  --color-highlight: #353430;
+  --button-hover-color: #32312D66;
   --title-color: #FFC2E6;
   --text-color: #353430;
   --main-text-color: #353430;
@@ -25,10 +26,15 @@
     --cover-image: url(../images/cover-image-light.png);
     --rec-color: #ffeef6;
     --accent-color: #FF8DCB;
-    --button-hover-color: rgba(255, 141, 203, 50%);
+    --color-highlight: #353430;
+    --button-hover-color: #32312D66;
     --title-color: #FFC2E6;
     --text-color: #353430;
     --main-text-color: #353430;
     --background-color: #FFF1F7;
+  }
+
+  .span__rec {
+    visibility: hidden;
   }
 }
